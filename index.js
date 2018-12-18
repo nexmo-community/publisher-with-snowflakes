@@ -67,7 +67,7 @@ const getCanvasStream = () => {
   filterVideo = document.createElement('video');
   filterVideo.setAttribute('loop', true);
   filterCanvas = document.createElement('canvas');
-  filterVideo.src = 'snowflake-greenscreen.mp4';
+  filterVideo.src = 'snowflake-greenscreen.mp4'; // We do not own the rights to this video
   filterCanvas.width = filterVideo.width = 640;
   filterCanvas.height = filterVideo.height = 480;
   filterVideo.play();
