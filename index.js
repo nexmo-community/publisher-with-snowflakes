@@ -1,3 +1,4 @@
+// Sample code inspired from @aullman (https://github.com/aullman)
 const closeToGreen = (r, g, b) => {
   // 86, 246, 61
   if (g > (b * 1.4) && g > (r * 1.4)) {
